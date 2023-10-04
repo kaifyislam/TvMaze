@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>TV Mazes</title>
+</head>
+<body>
+    <div class="container">
+        <h1>TV Mazes ✌️</h1>
+
+        <form id="form" class="form">
+            <input type="text" name="search" id="search" placeholder="Enter TV show name">
+            <button type="submit" class="form-submit">Search</button>
+        </form>
+
+        <section id="cards" class="cards">
+            <article class="card-item">
+                <h2 class="card-activity">
+                    TV-SHOW NAME: <span id="showName"></span>
+                </h2>
+                <h4>
+                    Language: <span id="language"></span>
+                </h4>
+                <h4>
+                    Rating: <span id="rating"></span>
+                </h4>
+                <h4>
+                    Genres: <span id="genres"></span>
+                </h4>
+                <img class="main-image" id="mainImage" src="" alt="No images available">
+                <div id="summary">
+                    <h3 id="showSummary"></h3>
+                </div>
+                <br><br>
+                <h1>CAST</h1><br>
+                <div class="image-container" id="castContainer"></div>
+                <h1>Episodes</h1>
+                <div class="episode-container" id="episodeContainer"></div>
+                
+                
+            </article>
+            <div id="tag-error" class="tag-error"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

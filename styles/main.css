@@ -1,0 +1,156 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1e1e1e; /* Slightly lighter container background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Increased box shadow for depth */
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; /* Light text color */
+}
+
+/* Form Styles */
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#search {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #fff; /* Light border color */
+    border-radius: 3px;
+    flex-grow: 0.8;
+    margin-right: 10px;
+    background-color: #1e1e1e; /* Slightly lighter form background */
+    color: #fff; /* Light text color */
+}
+
+.form-submit {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Card Styles */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-item {
+    background-color: #1e1e1e; /* Slightly lighter card background */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5); /* Increased card shadow for depth */
+    border-radius: 5px;
+    padding: 20px;
+    flex-grow: 1;
+    transition: transform 0.2s ease-in-out;
+    color: #fff; /* Light text color */
+}
+
+.card-activity {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff; /* Light text color */
+}
+
+img {
+    justify-content: center;
+    width: 200px;
+    border-radius: 5px; /* Slightly rounded images */
+}
+
+.tag-error {
+    font-size: 18px;
+    color: #ff0000;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Episode Styles */
+#episodeContainer{
+    margin: 20px;
+    /*background-color: #007bff77;  Netflix blue for episode background */
+    padding: 50px;
+    border-radius: 5px;
+}
+
+#episode:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+/* Image Styles */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.image:hover {
+    transform: scale(2.5);
+}
+
+.image-name {
+    text-align: center;
+    width: 100px;
+}
+
+.main-image {
+    object-fit: cover;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.main-image:hover {
+    transform: scale(2.0);
+    transition-duration: 0.5s;
+}
+
+.episode-image {
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 2px solid white; /* Add a white border */
+    /* box-sizing: border-box; */
+}
+
+.episode-image:hover {
+    transform: scale(2.5);
+    transition-duration: 0.5s;
+}
