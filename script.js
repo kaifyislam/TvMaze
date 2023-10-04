@@ -26,7 +26,7 @@ document.getElementById("form").addEventListener("submit", async (e) => {
         castData.forEach((cast) => {
             const castDiv = document.createElement("div");
             castDiv.innerHTML = `
-                <img class="image" src="${cast.person.image.medium}" alt="Image not found">
+                <img class="image" src="${cast.person.image.medium}" alt="Search for the show">
                 <div class="image-name"><b><em>${cast.person.name}</em></b></div>
             `;
             castContainer.appendChild(castDiv);
